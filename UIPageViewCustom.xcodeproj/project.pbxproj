@@ -12,6 +12,8 @@
 		AC2E6C642240E5FB007A5C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E6C622240E5FB007A5C22 /* Main.storyboard */; };
 		AC2E6C662240E600007A5C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2E6C652240E600007A5C22 /* Assets.xcassets */; };
 		AC2E6C692240E600007A5C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E6C672240E600007A5C22 /* LaunchScreen.storyboard */; };
+		AC2E6C712240E977007A5C22 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E6C702240E977007A5C22 /* PageViewController.swift */; };
+		AC2E6C7322412F90007A5C22 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E6C7222412F90007A5C22 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC2E6C652240E600007A5C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2E6C682240E600007A5C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2E6C6A2240E600007A5C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2E6C702240E977007A5C22 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		AC2E6C7222412F90007A5C22 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AC2E6C5E2240E5FB007A5C22 /* AppDelegate.swift */,
 				AC2E6C602240E5FB007A5C22 /* ViewController.swift */,
 				AC2E6C622240E5FB007A5C22 /* Main.storyboard */,
+				AC2E6C702240E977007A5C22 /* PageViewController.swift */,
+				AC2E6C7222412F90007A5C22 /* Model.swift */,
 				AC2E6C652240E600007A5C22 /* Assets.xcassets */,
 				AC2E6C672240E600007A5C22 /* LaunchScreen.storyboard */,
 				AC2E6C6A2240E600007A5C22 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2E6C712240E977007A5C22 /* PageViewController.swift in Sources */,
 				AC2E6C612240E5FB007A5C22 /* ViewController.swift in Sources */,
 				AC2E6C5F2240E5FB007A5C22 /* AppDelegate.swift in Sources */,
+				AC2E6C7322412F90007A5C22 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = UIPageViewCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = UIPageViewCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
